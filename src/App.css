@@ -1,0 +1,87 @@
+.container-mainpage{
+  display: flex;
+  max-width: 1182px;
+  height: 522px;
+  /* background-color: aqua; */
+  margin: 60px auto;
+  position: relative;
+}
+
+.mainpage-content{
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  /* background-color: blue; */
+  width: 100%;
+}
+
+.mainpage-content-container h1{
+  font-size: 60px;
+  align-items: center;
+  position: absolute;
+  top:110px;
+}
+
+.mainpage-content-container button{
+  position:absolute;
+  right: 190px;
+  font-size: 20px;
+  background-color: black;
+  border-radius:10px;
+  color: white;
+  padding: 10px 20px;
+}
+
+
+.play-nav{
+  width: 1280px;
+  height: 151px;
+  /* background-color: aqua; */
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.select-nmbr{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.select-nmbr button{
+  height: 50px;
+  width: 50px;
+  border-radius: 2px;
+  margin: 5px 5px;
+  background-color: white;
+}
+.play-content{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 10px;
+  align-items: center;
+}
+.reset-btn{
+  font-size: 20px;
+  background-color: black;
+  border-radius:10px;
+  color: white;
+  padding: 10px 20px;
+}
+.score{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.score-tag{
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+
